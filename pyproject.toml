@@ -100,4 +100,5 @@ ignore_missing_imports = true
 asyncio_mode = "auto"
 testpaths = ["tests"]
 # increase verbosity for easier debugging during local development
-addopts = "-v --tb=short"
+# using --tb=long locally for fuller tracebacks when debugging test failures
+addopts = "-v --tb=long"
